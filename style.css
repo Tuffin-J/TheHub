@@ -3,19 +3,19 @@ body{
 }
 
 .zone {
-    cursor:default;
+/*    cursor:default;
     color:#FFF;
     font-size:2em;
     border-radius:4px;
     border:1px solid #bbb;
-    transition: all 0.3s linear;
+    transition: all 0.3s linear;*/
 }
 
 .zone:hover {
-    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+/*    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;*/
 }
 
 .main-nav{
@@ -40,6 +40,7 @@ body{
 
 li {
     padding: 20px;
+    font-size: 1.75rem;
 }
 
 #logo {
@@ -76,9 +77,25 @@ a {
 }
 
 .box {
-    background-color: #444;
-    padding: 130px;
+    background-color: #666;
+    padding: 10px;
     margin: 20px;
+}
+
+.box.zone {
+    border: none;
+}
+
+.descriptor {
+    color: white;
+    font-size: 0.25em;
+    font-family: sans-serif, cursive;
+    text-align: center;
+}
+
+.box a {
+    color: white;
+    font-size: 1.5rem;
 }
 
 footer {
