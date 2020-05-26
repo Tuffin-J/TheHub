@@ -1,66 +1,177 @@
-body,
-html {
-  width: 100%;
-  height: 100%;
-  font-family: 'Montserrat', sans-serif;
-  background: url(sava.png) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
+body {
+	background-image: url(https://images.unsplash.com/photo-1444090542259-0af8fa96557e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80);
+	background-repeat: no-repeat;
 }
 
-h1 {
-	font-size: 3rem;
-	color: #290502;
-	border: 5px;
-	border-color: black;
+.container {
+	flex-flow: row wrap;
+	justify-content: center;
 }
 
-hr {
-	border-color: #290502;
-	border-width: 3px;
-	max-width: 65px;
+.text {
+	margin-top: 50px;
 }
 
-p {
-	color: #290502;
+#slogan {
+	color: #692800;
+	font-size: 250%;
 }
 
-img {
-	height: 100px;
-	width: 130px;
+.lower {
+	font-family: 'Original Surfer', cursive;
 }
 
-.buffer {
-	height: 8rem;
+#logo {
+	height: 250px;
+	width: 250px;
 }
 
-.btn{
-	font-weight: 700;
-	border-radius: 300px;
-	text-transform: uppercase;
-	color: #290502;
+.btn {
+	color: #692800;
+	background-color: #E55800;
+	box-shadow: none;
+	height: 2.5em;
+	width: 12em;
+	margin-top: 10px;
+	margin-left: 5em;
 }
 
-.btn-primary:active, .btn-primary:focus {
-  color: #290502 !important;
-  background-color:  #F05F44 !important;
-  border-color:  #F05F44 !important;
-  box-shadow: none;
+/*.btn {
+	color: #692800;
+	background-color: #E55800;
+	box-shadow: none;
+	height: 50%;
+	width: 50%;
+}*/
+
+.robots {
+	flex-wrap: wrap;
+	display: flex;
+	justify-content: center;
 }
 
-.btn-primary {
-	background-color: #F05F44;
-	border-color: #F05F44;
+.head, 
+.left_arm, 
+.torso, 
+.right_arm, 
+.left_leg, 
+.right_leg {
+	 background-color: #eb8034;
 }
 
-.btn-primary:hover {
-	background-color: #ee4b08;
-	border-color: #ee4b08;
-	border-width: 3px;
-	color: #290502;
+.head { 
+	width: 200px; 
+	margin: 0 auto; 
+	height: 150px; 
+	border-radius: 200px 200px 0 0; 
+	margin-bottom: 10px;
+} 
+
+.eyes {
+	
 }
 
-.btn-col {
-	padding: 1rem 2rem;
+.head:hover {
+	width: 300px;
+    transition: 1s ease-in-out;
 }
+
+.upper_body { 
+	width: 300px; 
+	height: 150px;
+	display: flex; 
+	flex-direction: row;
+	justify-content: center;
+} 
+
+.left_arm, .right_arm { 
+	width: 40px; 
+	height: 125px;
+	border-radius: 100px; 
+} 
+
+.left_arm { 
+	margin-right: 10px; 
+	transform: rotate(50deg);
+} 
+
+.left_arm:hover {
+	transform: rotate(75deg);
+}
+
+.right_arm { 
+	margin-left: 10px; 
+	transform: rotate(300deg);
+} 
+
+.right_arm:hover {
+	transform: rotate(270deg);
+}
+
+.torso { 
+	width: 200px; 
+	height: 200px;
+	border-radius: 0 0 50px 50px; 
+	justify-content: center;
+} 
+
+.lower_body { 
+	width: 200px; 
+	height: 200px;
+	/* This is another useful property. Hmm what do you think it does?*/
+	margin: 0 auto;
+	display: flex;
+} 
+
+.left_leg, .right_leg { 
+	width: 40px; 
+	height: 120px;
+	border-radius: 0 0 100px 100px; 
+} 
+
+.left_leg { 
+	margin-left: 45px; 
+} 
+
+.left_leg:hover {
+	-webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg);
+}
+
+.right_leg { 
+	margin-left: 30px; 
+}
+
+.right_leg:hover {
+	transform: rotate(340deg);
+}
+
+.left_eye, .right_eye { 
+	width: 20px; 
+	height: 20px; 
+	border-radius: 15px; 
+	background-color: white;  
+} 
+
+.left_eye { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 100px; 
+	left: 40px; 
+} 
+
+.right_eye { 
+	position: relative; 
+	top: 100px; 
+	left: 120px; 
+}
+
+
+
+
+
+
