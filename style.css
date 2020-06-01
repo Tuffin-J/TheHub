@@ -60,7 +60,8 @@ li {
 a {
     color: #E55800;
     text-decoration: none;
-    font-family: sans-serif, cursive;
+    font-family: 'Montserrat', sans-serif, cursive;
+    font-weight: 700;
 }
 
 /****** COVER *****/
@@ -72,7 +73,7 @@ a {
     height: 50vh; /***** vh = Veiwport Height - ((50vh is equals to 50% of viewport)) *****/
     color: #E55800;
     font-size: 2.5rem;
-    font-family: sans-serif, cursive;
+    font-family: 'Montserrat', sans-serif, cursive;
 }
 
 
