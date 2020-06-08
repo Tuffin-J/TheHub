@@ -84,6 +84,12 @@ a {
     font-family: 'Montserrat', sans-serif, cursive;
 }
 
+@media only screen and (max-width: 600px){
+    .container{
+        height: 5%;
+    }
+}
+
 
 .coverEnd {
     margin-left: auto;
