@@ -67,17 +67,9 @@ li {
 
 @media only screen and (max-width: 600px){
     #logo{
-        width: 2rem;
-        height: 2rem;
-        padding: 0;
-        margin: 0;
+        visibility: hidden;
     }
-    #logo li{
-        width: 2rem;
-        height: 2rem;
-        padding: 0;
-        margin: 0;
-    }
+        
 }
 
 a {
